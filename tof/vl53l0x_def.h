@@ -1,5 +1,5 @@
 /*******************************************************************************
-Copyright © 2016, STMicroelectronics International N.V.
+Copyright ï¿½ 2016, STMicroelectronics International N.V.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -83,7 +83,7 @@ extern "C" {
 #define VL53L0X_IMPLEMENTATION_VER_SUB	  2
 /** VL53L0X PAL IMPLEMENTATION sub version */
 #define VL53L0X_IMPLEMENTATION_VER_REVISION	  4823
-#define VL53L0X_DEFAULT_MAX_LOOP 2000
+#define VL53L0X_DEFAULT_MAX_LOOP 10000
 #define VL53L0X_MAX_STRING_LENGTH 32
 
 

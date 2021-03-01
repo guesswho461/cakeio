@@ -58,23 +58,62 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define B1_Pin GPIO_PIN_13
-#define B1_GPIO_Port GPIOC
-#define B1_EXTI_IRQn EXTI15_10_IRQn
+#define CLEAN_3_Pin GPIO_PIN_13
+#define CLEAN_3_GPIO_Port GPIOC
+#define BOWL_READY_Pin GPIO_PIN_0
+#define BOWL_READY_GPIO_Port GPIOC
+#define FLOW_1_CNT_Pin GPIO_PIN_1
+#define FLOW_1_CNT_GPIO_Port GPIOC
+#define FLOW_2_CNT_Pin GPIO_PIN_2
+#define FLOW_2_CNT_GPIO_Port GPIOC
+#define COIN_1_CNT_Pin GPIO_PIN_3
+#define COIN_1_CNT_GPIO_Port GPIOC
+#define TP_JOG_TARGET_0_Pin GPIO_PIN_0
+#define TP_JOG_TARGET_0_GPIO_Port GPIOA
+#define TP_JOG_TARGET_1_Pin GPIO_PIN_1
+#define TP_JOG_TARGET_1_GPIO_Port GPIOA
 #define USART_TX_Pin GPIO_PIN_2
 #define USART_TX_GPIO_Port GPIOA
 #define USART_RX_Pin GPIO_PIN_3
 #define USART_RX_GPIO_Port GPIOA
-#define LD2_Pin GPIO_PIN_5
-#define LD2_GPIO_Port GPIOA
+#define TP_JOG_TARGET_2_Pin GPIO_PIN_4
+#define TP_JOG_TARGET_2_GPIO_Port GPIOA
+#define TP_JOG_TARGET_3_Pin GPIO_PIN_5
+#define TP_JOG_TARGET_3_GPIO_Port GPIOA
+#define TP_JOG_SPD_Pin GPIO_PIN_6
+#define TP_JOG_SPD_GPIO_Port GPIOA
+#define COIN_2_CNT_Pin GPIO_PIN_4
+#define COIN_2_CNT_GPIO_Port GPIOC
+#define TP_MODE_Pin GPIO_PIN_5
+#define TP_MODE_GPIO_Port GPIOC
 #define SPI2_CS_Pin GPIO_PIN_12
 #define SPI2_CS_GPIO_Port GPIOB
+#define GATE_CMD_Pin GPIO_PIN_6
+#define GATE_CMD_GPIO_Port GPIOC
+#define TP_JOG_DIR_Pin GPIO_PIN_8
+#define TP_JOG_DIR_GPIO_Port GPIOC
+#define ALARM_RESET_Pin GPIO_PIN_9
+#define ALARM_RESET_GPIO_Port GPIOC
+#define TP_JOG_TARGET_4_Pin GPIO_PIN_8
+#define TP_JOG_TARGET_4_GPIO_Port GPIOA
+#define TP_JOG_TARGET_5_Pin GPIO_PIN_9
+#define TP_JOG_TARGET_5_GPIO_Port GPIOA
+#define TP_JOG_TARGET_6_Pin GPIO_PIN_10
+#define TP_JOG_TARGET_6_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
 #define TCK_GPIO_Port GPIOA
+#define CLEAN_1_Pin GPIO_PIN_11
+#define CLEAN_1_GPIO_Port GPIOC
+#define CLEAN_2_Pin GPIO_PIN_12
+#define CLEAN_2_GPIO_Port GPIOC
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
+#define BOWL_TOF_X_Pin GPIO_PIN_8
+#define BOWL_TOF_X_GPIO_Port GPIOB
+#define BATTER_TOF_X_Pin GPIO_PIN_9
+#define BATTER_TOF_X_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

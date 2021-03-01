@@ -44,6 +44,8 @@ extern "C" {
 #define trace_printf uart_printf
 #endif
 
+#define VL53L0x_SINGLE_DEVICE_DRIVER 0
+
 /**
  * @file vl53l0x_platform.h
  *

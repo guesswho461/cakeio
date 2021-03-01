@@ -43,7 +43,7 @@ int _I2CWrite(VL53L0X_DEV Dev, uint8_t *pdata, uint32_t count) {
 //    status = HAL_I2C_Master_Transmit(Dev->I2cHandle, Dev->I2cDevAddr, pdata, count, i2c_time_out);
     status = HAL_I2C_Master_Transmit_DMA(Dev->I2cHandle, Dev->I2cDevAddr, pdata, count);
     while (HAL_I2C_GetState(Dev->I2cHandle) != HAL_I2C_STATE_READY) {
-    	HAL_Delay(1);
+    	HAL_Delay(10);
     }
 //    if (status) {
         //VL6180x_ErrLog("I2C error 0x%x %d len", dev->I2cAddr, len);
@@ -58,7 +58,7 @@ int _I2CRead(VL53L0X_DEV Dev, uint8_t *pdata, uint32_t count) {
 
 //    status = HAL_I2C_Master_Receive(Dev->I2cHandle, Dev->I2cDevAddr|1, pdata, count, i2c_time_out);
     status = HAL_I2C_Master_Receive_DMA(Dev->I2cHandle, Dev->I2cDevAddr|1, pdata, count);    while (HAL_I2C_GetState(Dev->I2cHandle) != HAL_I2C_STATE_READY) {
-    	HAL_Delay(1);
+    	HAL_Delay(10);
     }
 //    if (status) {
         //VL6180x_ErrLog("I2C error 0x%x %d len", dev->I2cAddr, len);
